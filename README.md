@@ -1,18 +1,37 @@
-# 🚀 PocketBench
+Here is the clean, simple `README.md`.
 
-**PocketBench** is a local automation tool for benchmarking Quantized LLMs (GGUF). 
+```markdown
+#  PocketBench
 
-It allows you to queue up multiple models, run benchmarks (like MMLU, GSM8k) overnight, and automatically sync the results to a community leaderboard.
+**PocketBench** is a local tool to automate benchmarking for Quantized LLMs (GGUF). It handles queuing models, running tests (MMLU, GSM8k), and syncing results to a leaderboard.
 
-## ✨ Features
-- **Batch Processing**: Queue multiple models and run them sequentially.
-- **Fault Tolerance**: Automatically retries if a model crashes or internet fails.
-- **Disk Cleaner**: Finds and deletes corrupted or partial downloads to save space.
-- **Leaderboard Sync**: Auto-uploads results to Hugging Face.
-
-## 🛠️ Installation
+##  Installation
 
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/sidhu1512/PocketBench.git](https://github.com/sidhu1512/PocketBench.git)
 cd PocketBench
+
+```
+
+**2. Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+
+
+## 🚀 How to Run
+
+**1. Start the Server**
+
+```bash
+python server.py
+
+```
+
+**2. Open the Dashboard**
+Open your browser and go to: **http://localhost:5000**
+
