@@ -1,0 +1,16 @@
+# Python junk
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Large Models & Data (DO NOT UPLOAD)
+*.gguf
+*.bin
+logs/
+temp_outputs/
+local_results_db/
+
+# System junk
+.DS_Store
+Thumbs.db
